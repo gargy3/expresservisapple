@@ -16,10 +16,9 @@ export default function AboutSection() {
               O nás
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-              Jsme specializovaný servis Apple zařízení.
-              Kombinujeme rychlost expresních oprav s&nbsp;precizností
-              a&nbsp;zárukou kvality. 10&nbsp;let zkušeností, tisíce spokojených
-              zákazníků.
+              Jsme specializovaný servis Apple zařízení. Kombinujeme rychlost
+              expresních oprav s&nbsp;precizností a&nbsp;zárukou kvality.
+              10&nbsp;let zkušeností, tisíce spokojených zákazníků.
             </p>
           </div>
         </AnimatedSection>

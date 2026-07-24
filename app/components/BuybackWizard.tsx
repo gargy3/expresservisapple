@@ -192,9 +192,39 @@ export default function BuybackWizard() {
     }
   };
 
-  const handleSubmit = () => {
+  const [sending, setSending] = useState(false);
+
+  const handleSubmit = async () => {
     if (!name || !email || !phone) return;
-    setSubmitted(true);
+    setSending(true);
+    try {
+      await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'wizard',
+          name,
+          email,
+          phone,
+          model: selectedModel?.name ?? '',
+          storage: storage?.label ?? '',
+          condition: isDamaged
+            ? 'Poškozený'
+            : (conditionOptions.find((c) => c.key === selectedCondition)
+                ?.label ?? ''),
+          batteryOk: isDamaged ? null : batteryOk,
+          brokenDisplay: isDamaged ? null : brokenDisplay,
+          brokenCamera: isDamaged ? null : brokenCamera,
+          bentOrBroken: isDamaged ? null : bentOrBroken,
+          estimatedPrice: isDamaged ? null : estimatedPrice,
+        }),
+      });
+    } catch {
+      // pokud se email nepošle, přesto zobrazíme potvrzení
+    } finally {
+      setSending(false);
+      setSubmitted(true);
+    }
   };
 
   const handleReset = () => {
@@ -473,11 +503,11 @@ export default function BuybackWizard() {
                 <button
                   type="button"
                   onClick={handleSubmit}
-                  disabled={!name || !email || !phone}
+                  disabled={!name || !email || !phone || sending}
                   className="w-full bg-accent hover:bg-accent/90 disabled:opacity-40 text-white font-bold py-3.5 rounded-xl transition-all flex items-center justify-center gap-2"
                 >
                   <Send className="w-4 h-4" />
-                  Nezávazně se ozvěte
+                  {sending ? 'Odesílám…' : 'Nezávazně se ozvěte'}
                 </button>
               </div>
             </div>
@@ -569,11 +599,11 @@ export default function BuybackWizard() {
               <button
                 type="button"
                 onClick={handleSubmit}
-                disabled={!name || !email || !phone}
+                disabled={!name || !email || !phone || sending}
                 className="w-full bg-accent hover:bg-accent/90 disabled:opacity-40 text-white font-bold py-3.5 rounded-xl transition-all flex items-center justify-center gap-2"
               >
                 <Send className="w-4 h-4" />
-                Odeslat poptávku
+                {sending ? 'Odesílám…' : 'Odeslat poptávku'}
               </button>
             </div>
           </div>

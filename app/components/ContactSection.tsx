@@ -8,13 +8,28 @@ export default function ContactSection() {
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSending(true);
-    setTimeout(() => {
+    const data = new FormData(e.currentTarget);
+    try {
+      await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: 'contact',
+          name: data.get('name') as string,
+          email: '',
+          phone: data.get('phone') as string,
+          message: data.get('message') as string,
+        }),
+      });
+    } catch {
+      // zobrazíme potvrzení i při chybě sítě
+    } finally {
       setSending(false);
       setSent(true);
-    }, 2000);
+    }
   };
 
   return (
@@ -71,6 +86,7 @@ export default function ContactSection() {
                 <form onSubmit={handleSubmit} className="space-y-4">
                   <input
                     type="text"
+                    name="name"
                     placeholder="Jméno a příjmení"
                     required
                     minLength={2}
@@ -78,11 +94,13 @@ export default function ContactSection() {
                   />
                   <input
                     type="tel"
+                    name="phone"
                     placeholder="Telefon"
                     required
                     className="w-full px-4 py-3 bg-surface border border-border rounded-xl text-dark placeholder:text-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors"
                   />
                   <textarea
+                    name="message"
                     placeholder="Popište váš problém..."
                     rows={4}
                     required
