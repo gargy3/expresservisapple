@@ -51,7 +51,7 @@ export default function HeroSection() {
 
             {/* Trust signals — inline, no boxes */}
             <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-text-secondary">
-              {['Originální díly', 'Záruka 24 měsíců', '10+ let praxe'].map(
+              {['Originální kvalita dílů', 'Záruka 24 měsíců', '10+ let praxe'].map(
                 (item) => (
                   <span key={item} className="flex items-center gap-1.5">
                     <svg
