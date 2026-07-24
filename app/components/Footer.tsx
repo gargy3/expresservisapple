@@ -27,7 +27,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-text-secondary text-sm leading-relaxed mb-3">
-              Expresní opravy Apple zařízení v&nbsp;centru Brna.
+              Expresní opravy Apple zařízení.
             </p>
             <p className="text-xs text-gray-400">
               IČ: 07042515 · DIČ: CZ07042515

@@ -36,7 +36,7 @@ export default function GallerySection() {
               Náš servis
             </h2>
             <p className="text-text-secondary text-lg leading-relaxed">
-              Moderní vybavení a příjemné prostředí v centru Brna.
+              Moderní vybavení a příjemné prostředí.
             </p>
           </div>
         </AnimatedSection>
