@@ -116,8 +116,7 @@ export default function ServicesSection() {
         {/* Inline "Další zařízení" — no icon grid */}
         <AnimatedSection direction="none" delay={0.2}>
           <p className="text-sm text-text-secondary text-center">
-            Opravujeme také{' '}
-            <strong className="text-dark">Apple Watch, iMac a AirPods</strong>.{' '}
+            Opravujeme také <strong className="text-dark">Apple Watch</strong>.{' '}
             <a
               href="#kontakt"
               className="text-primary font-semibold hover:underline"

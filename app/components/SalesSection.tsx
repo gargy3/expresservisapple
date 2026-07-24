@@ -42,18 +42,6 @@ export default function SalesSection() {
                   Vykupujeme vaše staré iPhony za férové ceny. Zjistěte si
                   odhadovanou cenu v kalkulačce, stačí pár kliknutí.
                 </p>
-                <ul className="space-y-2 text-sm text-text-secondary mb-6">
-                  {[
-                    'iPhone 14 Pro: výkup od 9 000 Kč',
-                    'iPhone 15: výkup od 12 000 Kč',
-                    'iPhone 15 Pro: výkup od 16 000 Kč',
-                  ].map((item) => (
-                    <li key={item} className="flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
                 <p className="text-xs text-text-secondary">
                   Chcete prodat iPad, MacBook nebo Apple Watch?{' '}
                   <a

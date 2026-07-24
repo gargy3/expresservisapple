@@ -8,11 +8,13 @@ const faqs = [
   },
   {
     question: 'Jaká je záruka na opravu?',
-    answer: 'Na všechny opravy poskytujeme záruku 24 měsíců.',
+    answer:
+      'Na všechny opravy poskytujeme záruku 24 měsíců. Na výměnu baterie se vztahuje záruka 6 měsíců.',
   },
   {
     question: 'Používáte originální díly?',
-    answer: 'Ano, používáme originální díly od výrobce.',
+    answer:
+      'Ano, používáme originální díly od výrobce nebo OEM díly nejvyšší kvality.',
   },
   {
     question: 'Kolik stojí diagnostika?',
@@ -32,7 +34,7 @@ const faqs = [
   {
     question: 'Opravujete i Apple Watch?',
     answer:
-      'Ano, opravujeme Apple Watch všech generací. Kontaktujte nás pro nacenění konkrétní opravy.',
+      'Ano, opravujeme Apple Watch všech generací v omezeném rozsahu. Kontaktujte nás pro nacenění konkrétní opravy.',
   },
 ];
 

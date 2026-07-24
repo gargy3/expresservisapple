@@ -6,7 +6,6 @@ import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
 import Image from 'next/image';
 
 const navLinks = [
-  { label: 'O nás', href: '#o-nas' },
   { label: 'Služby', href: '#sluzby' },
   { label: 'Ceník', href: '#cenik' },
   { label: 'Prodej & výkup', href: '#prodej' },

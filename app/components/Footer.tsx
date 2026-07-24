@@ -105,7 +105,15 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Expres Servis Apple. Všechna práva
             vyhrazena.
           </p>
-          <p className="text-xs text-text-secondary">Brno, Česká republika</p>
+          <div className="flex items-center gap-4">
+            <a
+              href="/obchodni-podminky"
+              className="text-xs text-text-secondary hover:text-primary transition-colors"
+            >
+              Obchodní podmínky
+            </a>
+            <p className="text-xs text-text-secondary">Brno, Česká republika</p>
+          </div>
         </div>
       </div>
     </footer>

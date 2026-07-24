@@ -5,29 +5,24 @@ import Image from 'next/image';
 
 const images = [
   {
-    src: '/galerie/servis-1.jpg',
+    src: '/galerie/_DSC6850.jpg',
     alt: 'Interiér Apple servisu v Brně',
     span: 'md:col-span-2 md:row-span-2',
   },
   {
-    src: '/galerie/servis-2.jpg',
-    alt: 'Technik opravuje iPhone',
-    span: '',
-  },
-  {
-    src: '/galerie/servis-3.jpg',
-    alt: 'Apple zařízení v servisu',
-    span: '',
-  },
-  {
-    src: '/galerie/servis-4.jpg',
+    src: '/galerie/_DSC6863.jpg',
     alt: 'Recepce servisu',
-    span: 'md:col-span-2',
+    span: '',
   },
   {
-    src: '/galerie/servis-5.jpg',
-    alt: 'Repasovaná Apple zařízení',
+    src: '/galerie/_DSC6865.jpg',
+    alt: 'Čekací zóna servisu',
     span: '',
+  },
+  {
+    src: '/galerie/_DSC6885.jpg',
+    alt: 'Prostory Apple servisu v Brně',
+    span: 'md:col-span-2',
   },
 ];
 

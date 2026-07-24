@@ -31,8 +31,6 @@ export default function HeroSection() {
               Opravíme váš iPhone.
               <br />
               <span className="text-primary">Na počkání.</span>
-              <br />
-              <span className="text-dark">V centru Brna.</span>
             </h1>
 
             <p className="text-text-secondary text-lg leading-relaxed mb-9 max-w-lg">
