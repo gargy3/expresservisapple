@@ -435,8 +435,9 @@ export default function BuybackWizard() {
                 {estimatedPrice.toLocaleString('cs-CZ')}&nbsp;Kč
               </p>
               <p className="text-text-secondary text-[11px] mt-2 leading-relaxed">
-                *&nbsp;Jedná se o <strong>orientační strop</strong> výkupní ceny.
-                Finální částka bude stanovena až po <strong>osobní diagnostice zařízení</strong> v naší provozovně.
+                *&nbsp;Jedná se o <strong>orientační strop</strong> výkupní
+                ceny. Finální částka bude stanovena až po{' '}
+                <strong>osobní diagnostice zařízení</strong> v naší provozovně.
               </p>
             </div>
 
