@@ -30,6 +30,13 @@ export const conditionOptions: {
   { key: 'uchazejici', label: 'Ucházející',  description: 'Zařízení má výrazné známky použití. Škrábance nebo oděrky.' },
 ];
 
+/**
+ * Globální korekční koeficient výkupních cen.
+ * 0.70 = ceny jsou sníženy o 30 % oproti ceníkovým hodnotám níže.
+ * Změn zde stačí k úpravě všech cen najednou.
+ */
+export const PRICE_MULTIPLIER = 0.70;
+
 /** Procentuální srážky za defekty (z bazové ceny) – snadno upravitelné */
 export const defectPenalties = {
   batteryBelow85: 0.15,  // −15 %

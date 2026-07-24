@@ -19,6 +19,7 @@ import {
 import buybackPrices, {
   conditionOptions,
   defectPenalties,
+  PRICE_MULTIPLIER,
   type Condition,
   type BuybackModel,
 } from '../data/buybackPrices';
@@ -133,10 +134,10 @@ export default function BuybackWizard() {
       ? selectedModel.storages[selectedStorage]
       : null;
 
-  /* price calculation ── base price minus defect penalties */
+  /* price calculation ── base price × multiplier minus defect penalties */
   const estimatedPrice = useMemo(() => {
     if (!storage || !selectedCondition) return 0;
-    let price = storage.prices[selectedCondition];
+    let price = storage.prices[selectedCondition] * PRICE_MULTIPLIER;
     if (batteryOk === false) price -= price * defectPenalties.batteryBelow85;
     if (brokenDisplay === true) price -= price * defectPenalties.brokenDisplay;
     if (brokenCamera === true) price -= price * defectPenalties.brokenCamera;
@@ -427,11 +428,15 @@ export default function BuybackWizard() {
               <p className="text-text-secondary text-xs uppercase tracking-wider mb-1">
                 Odhadovaná cena
               </p>
+              <p className="text-text-secondary text-xs font-medium mb-0.5">
+                Maximálně až
+              </p>
               <p className="text-primary text-4xl font-extrabold">
                 {estimatedPrice.toLocaleString('cs-CZ')}&nbsp;Kč
               </p>
-              <p className="text-text-secondary text-[11px] mt-1">
-                *&nbsp;Finální cena závisí na osobní diagnostice zařízení
+              <p className="text-text-secondary text-[11px] mt-2 leading-relaxed">
+                *&nbsp;Jedná se o <strong>orientační strop</strong> výkupní ceny.
+                Finální částka bude stanovena až po <strong>osobní diagnostice zařízení</strong> v naší provozovně.
               </p>
             </div>
 
