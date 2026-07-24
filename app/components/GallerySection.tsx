@@ -11,22 +11,22 @@ const images = [
   },
   {
     src: '/galerie/239371F5-CEAE-4410-B092-C3933AC706E7.jpg',
-    alt: 'Recepce servisu',
-    span: '',
-  },
-  {
-    src: '/galerie/2E215144-6314-41B9-BBB8-014086BA75DA.jpg',
     alt: 'Čekací zóna servisu',
     span: '',
   },
   {
+    src: '/galerie/2E215144-6314-41B9-BBB8-014086BA75DA.jpg',
+    alt: 'Recepce servisu',
+    span: '',
+  },
+  {
     src: '/galerie/48F04EB7-C274-4C61-8CDE-8FD6DCC4BE00.jpg',
-    alt: 'Pracovní místo technika',
+    alt: 'Vybavení Apple servisu',
     span: '',
   },
   {
     src: '/galerie/CE5FC19A-34BC-4C7B-8E87-1CCBA5483224.jpg',
-    alt: 'Vybavení Apple servisu',
+    alt: 'Hlavní vstup do servisu',
     span: '',
   },
 ];
