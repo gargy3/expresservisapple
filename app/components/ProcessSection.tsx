@@ -24,7 +24,7 @@ const steps = [
   {
     icon: ThumbsUp,
     title: 'Předání s garancí',
-    desc: 'Zařízení vám předáme otestované a funkční. Ke každé opravě poskytujeme záruku 24 měsíců.',
+    desc: 'Zařízení vám předáme otestované a funkční. Ke každé opravě poskytujeme záruku 24 měsíců. Na výměnu baterie se vztahuje záruka 6 měsíců.',
   },
 ];
 
