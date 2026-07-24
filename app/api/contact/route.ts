@@ -98,8 +98,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Invalid JSON' }, { status: 400 });
   }
 
-  // Basic validation
-  if (!body.name || !body.email) {
+  // Basic validation — wizard requires email, contact form requires message
+  if (!body.name) {
+    return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
+  }
+  if (body.type === 'wizard' && !body.email) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
   }
 
