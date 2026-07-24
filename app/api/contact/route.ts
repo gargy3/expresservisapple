@@ -1,7 +1,6 @@
 import { Resend } from 'resend';
 import { NextRequest, NextResponse } from 'next/server';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 const TO = process.env.CONTACT_EMAIL ?? 'info@expresservisapple.cz';
 
 /* ─── Wizard poptávka ─────────────────────────────────────── */
@@ -103,6 +102,12 @@ export async function POST(req: NextRequest) {
   if (!body.name || !body.email) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
   }
+
+  if (!process.env.RESEND_API_KEY) {
+    console.error('[contact] RESEND_API_KEY is not set');
+    return NextResponse.json({ error: 'Email service not configured' }, { status: 500 });
+  }
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   const isWizard = body.type === 'wizard';
 
