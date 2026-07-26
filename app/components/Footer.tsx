@@ -113,6 +113,14 @@ export default function Footer() {
               Obchodní podmínky
             </a>
             <p className="text-xs text-text-secondary">Brno, Česká republika</p>
+            <a
+              href="https://www.linkedin.com/in/janiktomas/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-text-secondary hover:text-primary transition-colors"
+            >
+              Web vytvořil Thomasix-Cloud
+            </a>
           </div>
         </div>
       </div>
