@@ -30,3 +30,10 @@ Jsme specializovaný servis Apple zařízení s více než 10 lety zkušeností.
 - Používáme originální díly
 - Většina oprav do 60 minut na počkání
 - Diagnostika je zdarma, pokud se rozhodnete pro opravu; bez realizace opravy se účtuje poplatek za diagnostiku
+
+## Markdown Mirrors
+
+Every important page on this website has a clean markdown version for AI tools.
+
+- https://www.expresservisapple.cz/index.md
+- https://www.expresservisapple.cz/obchodni-podminky/index.md

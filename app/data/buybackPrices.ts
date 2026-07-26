@@ -54,6 +54,41 @@ export interface BuybackModel {
 }
 
 const buybackPrices: BuybackModel[] = [
+  // ── iPhone 17 řada (orientační ceny – doporučujeme ověřit před nasazením) ──
+  {
+    name: 'iPhone 17 Pro Max',
+    storages: [
+      { label: '256 GB', prices: { novy: 38000, perfektni: 33000, velmiDobry: 31000, dobry: 28000, uchazejici: 23000 } },
+      { label: '512 GB', prices: { novy: 42000, perfektni: 37000, velmiDobry: 34000, dobry: 31000, uchazejici: 26000 } },
+      { label: '1 TB',   prices: { novy: 46000, perfektni: 40000, velmiDobry: 37000, dobry: 34000, uchazejici: 28000 } },
+      { label: '2 TB',   prices: { novy: 52000, perfektni: 45000, velmiDobry: 42000, dobry: 38000, uchazejici: 32000 } },
+    ],
+  },
+  {
+    name: 'iPhone 17 Pro',
+    storages: [
+      { label: '256 GB', prices: { novy: 33000, perfektni: 28000, velmiDobry: 26000, dobry: 24000, uchazejici: 19000 } },
+      { label: '512 GB', prices: { novy: 37000, perfektni: 32000, velmiDobry: 29000, dobry: 27000, uchazejici: 22000 } },
+      { label: '1 TB',   prices: { novy: 41000, perfektni: 35000, velmiDobry: 32000, dobry: 30000, uchazejici: 25000 } },
+      { label: '2 TB',   prices: { novy: 46000, perfektni: 39000, velmiDobry: 36000, dobry: 33000, uchazejici: 28000 } },
+    ],
+  },
+  {
+    name: 'iPhone Air',
+    storages: [
+      { label: '256 GB', prices: { novy: 28000, perfektni: 24000, velmiDobry: 22000, dobry: 20000, uchazejici: 16000 } },
+      { label: '512 GB', prices: { novy: 32000, perfektni: 27000, velmiDobry: 25000, dobry: 23000, uchazejici: 18000 } },
+      { label: '1 TB',   prices: { novy: 36000, perfektni: 30000, velmiDobry: 28000, dobry: 26000, uchazejici: 21000 } },
+    ],
+  },
+  {
+    name: 'iPhone 17',
+    storages: [
+      { label: '256 GB', prices: { novy: 23000, perfektni: 19000, velmiDobry: 18000, dobry: 16500, uchazejici: 13500 } },
+      { label: '512 GB', prices: { novy: 26000, perfektni: 22000, velmiDobry: 20500, dobry: 19000, uchazejici: 15500 } },
+    ],
+  },
+
   // ── iPhone 16 řada ──
   {
     name: 'iPhone 16 Pro Max',
