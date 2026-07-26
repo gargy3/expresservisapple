@@ -20,9 +20,9 @@ export default function SalesSection() {
               <div className="mb-8">
                 <h3 className="text-lg font-semibold text-dark mb-2">Prodej</h3>
                 <p className="text-text-secondary leading-relaxed mb-4">
-                  Nabízíme nová i certifikovaně repasovaná Apple zařízení za
-                  výhodné ceny. Každý kus prochází pečlivou kontrolou a je
-                  dodáván se zárukou.
+                  Nabízíme nové i použité telefony, tablety a MacBooky značky
+                  Apple v originálním stavu. Každý kus prochází pečlivou
+                  kontrolou a je dodáván se zárukou.
                 </p>
                 <a
                   href="#kontakt"

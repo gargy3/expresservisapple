@@ -129,7 +129,7 @@ Opravujeme také iPhone 13, 12, 11, X, XS, XR, 8, 7, 6s a starší. Ceny od 990 
 
 ## Prodej Apple zařízení
 
-Nabízíme nová i certifikovaně repasovaná Apple zařízení za výhodné ceny. Každý kus prochází pečlivou kontrolou a je dodáván se zárukou. Kontaktujte nás s poptávkou přes formulář nebo telefonicky.
+Nabízíme nové i použité telefony, tablety a MacBooky značky Apple v originálním stavu. Každý kus prochází pečlivou kontrolou a je dodáván se zárukou. Kontaktujte nás s poptávkou přes formulář nebo telefonicky.
 
 ## Výkup iPhonů
 
