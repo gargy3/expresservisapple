@@ -105,7 +105,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} Expres Servis Apple. Všechna práva
             vyhrazena.
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5">
             <a
               href="/obchodni-podminky"
               className="text-xs text-text-secondary hover:text-primary transition-colors"

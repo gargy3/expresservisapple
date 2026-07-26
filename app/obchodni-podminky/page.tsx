@@ -351,9 +351,12 @@ export default function ObchodniPodminkyPage() {
               info@expresservisapple.cz.
             </p>
             <p>
-              8.2. Dodavatel může zpracovávat „cookies" k usnadnění poskytování
-              služeb. Uživatelé mají možnost cookies odmítnout v nastavení
-              prohlížeče.
+              8.2. Web nepoužívá marketingové ani trackovací cookies. Pro měření
+              anonymní návštěvnosti jsou využívány výhradně cookieless
+              analytické nástroje (Vercel Analytics, Vercel Speed Insights),
+              které neukládají cookies ani osobní údaje. V případě budoucího
+              nasazení nástrojů vyžadujících cookies bude uživatel požádán o
+              souhlas prostřednictvím lišty na webu.
             </p>
           </div>
         </section>
