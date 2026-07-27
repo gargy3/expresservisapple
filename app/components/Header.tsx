@@ -4,13 +4,14 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Phone, MapPin, Clock } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const navLinks = [
-  { label: 'Služby', href: '#sluzby' },
-  { label: 'Ceník', href: '#cenik' },
-  { label: 'Prodej & výkup', href: '#prodej' },
-  { label: 'Časté dotazy', href: '#faq' },
-  { label: 'Kontakt', href: '#kontakt' },
+  { label: 'Služby', href: '/#sluzby' },
+  { label: 'Ceník', href: '/#cenik' },
+  { label: 'Prodej & výkup', href: '/#prodej' },
+  { label: 'Časté dotazy', href: '/#faq' },
+  { label: 'Kontakt', href: '/#kontakt' },
 ];
 
 export default function Header() {
@@ -71,7 +72,7 @@ export default function Header() {
         <div className="container-narrow">
           <div className="flex items-center justify-between h-14 md:h-16">
             {/* Logo */}
-            <a href="#home" className="flex items-center group">
+            <Link href="/#home" className="flex items-center group">
               <Image
                 src="/Logo/logo-expres-servis orange.png"
                 alt="Expres Servis Apple"
@@ -80,18 +81,18 @@ export default function Header() {
                 className="group-hover:opacity-80 transition-opacity"
                 priority
               />
-            </a>
+            </Link>
 
             {/* Desktop nav */}
             <nav className="hidden md:flex items-center gap-0.5">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="px-3.5 py-2 rounded-lg text-sm font-medium text-gray-500 hover:text-dark hover:bg-surface transition-colors"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
               <a
                 href="tel:+420777041184"
@@ -153,17 +154,20 @@ export default function Header() {
             {/* Nav items */}
             <nav className="flex-1 flex flex-col justify-center px-8">
               {navLinks.map((link, i) => (
-                <motion.a
+                <motion.div
                   key={link.href}
-                  href={link.href}
-                  onClick={() => setIsOpen(false)}
                   initial={{ opacity: 0, x: -12 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.06, duration: 0.25 }}
-                  className="block py-4 text-2xl font-semibold text-dark border-b border-border/50 last:border-0 tracking-tight"
                 >
-                  {link.label}
-                </motion.a>
+                  <Link
+                    href={link.href}
+                    onClick={() => setIsOpen(false)}
+                    className="block py-4 text-2xl font-semibold text-dark border-b border-border/50 last:border-0 tracking-tight"
+                  >
+                    {link.label}
+                  </Link>
+                </motion.div>
               ))}
             </nav>
 

@@ -2,13 +2,14 @@
 
 import { Phone, Mail, MapPin } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const navLinks = [
-  { label: 'Služby', href: '#sluzby' },
-  { label: 'Ceník', href: '#cenik' },
-  { label: 'Prodej & výkup', href: '#prodej' },
-  { label: 'Časté dotazy', href: '#faq' },
-  { label: 'Kontakt', href: '#kontakt' },
+  { label: 'Služby', href: '/#sluzby' },
+  { label: 'Ceník', href: '/#cenik' },
+  { label: 'Prodej & výkup', href: '/#prodej' },
+  { label: 'Časté dotazy', href: '/#faq' },
+  { label: 'Kontakt', href: '/#kontakt' },
 ];
 
 export default function Footer() {
@@ -18,14 +19,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
           {/* Brand */}
           <div>
-            <div className="mb-4">
+            <Link href="/#home" className="inline-block mb-4">
               <Image
                 src="/Logo/logo-expres-servis orange.png"
                 alt="Expres Servis Apple"
                 width={120}
                 height={54}
               />
-            </div>
+            </Link>
             <p className="text-text-secondary text-sm leading-relaxed mb-3">
               Expresní opravy Apple zařízení.
             </p>
@@ -42,12 +43,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-sm text-text-secondary hover:text-primary transition-colors"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -106,12 +107,12 @@ export default function Footer() {
             vyhrazena.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5">
-            <a
+            <Link
               href="/obchodni-podminky"
               className="text-xs text-text-secondary hover:text-primary transition-colors"
             >
               Obchodní podmínky
-            </a>
+            </Link>
             <p className="text-xs text-text-secondary">Brno, Česká republika</p>
             <a
               href="https://www.linkedin.com/in/janiktomas/"
