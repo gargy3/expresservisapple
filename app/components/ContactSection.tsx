@@ -19,7 +19,7 @@ export default function ContactSection() {
         body: JSON.stringify({
           type: 'contact',
           name: data.get('name') as string,
-          email: '',
+          email: data.get('email') as string,
           phone: data.get('phone') as string,
           message: data.get('message') as string,
         }),
@@ -96,6 +96,13 @@ export default function ContactSection() {
                     type="tel"
                     name="phone"
                     placeholder="Telefon"
+                    required
+                    className="w-full px-4 py-3 bg-surface border border-border rounded-xl text-dark placeholder:text-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors"
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail"
                     required
                     className="w-full px-4 py-3 bg-surface border border-border rounded-xl text-dark placeholder:text-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-colors"
                   />
