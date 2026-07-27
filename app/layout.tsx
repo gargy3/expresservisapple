@@ -140,7 +140,7 @@ export default function RootLayout({
                       '@type': 'Service',
                       name: 'Servis MacBook',
                       description:
-                        'Opravy MacBook Air a Pro: displej, klávesnice, logická deska',
+                        'Opravy MacBook Air a Pro: displej, klávesnice, základní deska',
                     },
                   },
                   {

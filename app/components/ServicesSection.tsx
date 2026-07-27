@@ -36,11 +36,11 @@ const services = [
     title: 'MacBook servis',
     icon: Laptop,
     from: '1 990',
-    desc: 'Servis MacBooků Air i Pro: klávesnice, displeje, SSD upgrade a opravy logické desky.',
+    desc: 'Servis MacBooků Air i Pro: klávesnice, displeje, SSD upgrade a opravy základní desky.',
     repairs: [
       'Výměna displeje',
       'Výměna klávesnice',
-      'Oprava logické desky',
+      'Oprava základní desky',
       'SSD výměna / upgrade',
       'Výměna baterie',
       'Čištění a údržba',

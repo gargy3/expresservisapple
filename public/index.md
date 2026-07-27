@@ -44,11 +44,11 @@ Opravy iPadů všech generací: displej, baterie, konektor i tlačítka.
 
 ### MacBook servis (od 1 990 Kč)
 
-Servis MacBooků Air i Pro: klávesnice, displeje, SSD upgrade a opravy logické desky.
+Servis MacBooků Air i Pro: klávesnice, displeje, SSD upgrade a opravy základní desky.
 
 - Výměna displeje
 - Výměna klávesnice
-- Oprava logické desky
+- Oprava základní desky
 - SSD výměna / upgrade
 - Výměna baterie
 - Čištění a údržba
@@ -120,12 +120,12 @@ Opravujeme také iPhone 13, 12, 11, X, XS, XR, 8, 7, 6s a starší. Ceny od 990 
 
 ## Orientační ceník oprav MacBook
 
-| Oprava                                          | Cena                |
-| ----------------------------------------------- | ------------------- |
-| Reinstalace macOS                               | 890 Kč              |
-| Výměna baterie                                  | od 1 990 Kč         |
-| Čištění                                         | 499 Kč              |
-| Výměna SSD, displeje, klávesnice, logická deska | cena po diagnostice |
+| Oprava                                           | Cena                |
+| ------------------------------------------------ | ------------------- |
+| Reinstalace macOS                                | 890 Kč              |
+| Výměna baterie                                   | od 1 990 Kč         |
+| Čištění                                          | 499 Kč              |
+| Výměna SSD, displeje, klávesnice, základní deska | cena po diagnostice |
 
 ## Prodej Apple zařízení
 
