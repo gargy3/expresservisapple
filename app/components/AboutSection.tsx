@@ -39,7 +39,7 @@ export default function AboutSection() {
                 <div className="flex items-center gap-2 text-white">
                   <MapPin className="w-4 h-4 text-primary" />
                   <span className="text-sm font-medium">
-                    Kosmova 4, 612 00 Brno
+                    Kosmova 4, 612 00 Brno-Královo Pole
                   </span>
                 </div>
               </div>

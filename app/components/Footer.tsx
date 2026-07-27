@@ -81,7 +81,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-2 text-sm text-text-secondary">
                   <MapPin className="w-3.5 h-3.5 flex-shrink-0" />
-                  Kosmova 4, 612 00 Brno
+                  Kosmova 4, 612 00 Brno-Královo Pole
                 </li>
               </ul>
               <div className="text-sm text-text-secondary space-y-0.5">

@@ -189,7 +189,7 @@ Diagnostika je zdarma, pokud se rozhodnete pro opravu u nás. V případě, že 
 
 ### Kde se servis nachází?
 
-Náš servis se nachází na adrese Kosmova 4, 612 00 Brno, v centru města.
+Náš servis se nachází na adrese Kosmova 4, 612 00 Brno-Královo Pole.
 
 ### Vykupujete staré iPhony?
 
@@ -201,7 +201,7 @@ Ano, opravujeme Apple Watch všech generací v omezeném rozsahu. Kontaktujte n�
 
 ## Kontakt
 
-- **Adresa:** Kosmova 4, 612 00 Brno (centrum města)
+- **Adresa:** Kosmova 4, 612 00 Brno-Královo Pole
 - **Telefon:** +420 777 041 184
 - **E-mail:** info@expresservisapple.cz
 - **Otevírací doba:** Po – Pá 8:30 – 18:00, So – Ne po telefonické domluvě

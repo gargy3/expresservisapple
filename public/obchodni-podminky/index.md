@@ -21,7 +21,7 @@ Tyto obchodní podmínky platí pro nákup v internetovém obchodě www.expresse
 - **Telefon:** +420 777 041 184
 - **E-mail:** info@expresservisapple.cz
 - **Web:** https://www.expresservisapple.cz
-- **Provozovna:** Kosmova 4, 612 00 Brno
+- **Provozovna:** Kosmova 4, 612 00 Brno-Královo Pole
 - **Provozní doba:** PO – PÁ: 8:30 – 18:00, SO – NE: po telefonické domluvě
 - **Provozní doba infolinky:** NON-STOP
 

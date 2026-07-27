@@ -200,7 +200,7 @@ export default function RootLayout({
                   name: 'Kde se servis nachází?',
                   acceptedAnswer: {
                     '@type': 'Answer',
-                    text: 'Náš servis se nachází na adrese Kosmova 4, 612 00 Brno, v centru města.',
+                    text: 'Náš servis se nachází na adrese Kosmova 4, 612 00 Brno-Královo Pole.',
                   },
                 },
                 {

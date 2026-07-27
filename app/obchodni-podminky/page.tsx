@@ -61,7 +61,7 @@ export default function ObchodniPodminkyPage() {
               </a>
             </li>
             <li>
-              <strong>Provozovna:</strong> Kosmova 4, 612 00 Brno
+              <strong>Provozovna:</strong> Kosmova 4, 612 00 Brno-Královo Pole
             </li>
             <li>
               <strong>Provozní doba:</strong> PO – PÁ: 8:30 – 18:00, SO – NE: po
@@ -322,7 +322,7 @@ export default function ObchodniPodminkyPage() {
             </p>
             <p>
               7.10. Práva kupujícího z vad uplatňuje kupující u dodavatele na
-              adrese: Expresservisapple, Kosmova 4, 612 00 Brno.
+              adrese: Expresservisapple, Kosmova 4, 612 00 Brno-Královo Pole.
             </p>
             <p>
               7.11. O reklamaci dodavatel rozhodne ihned, ve složitých případech

@@ -197,7 +197,7 @@ export default function ContactSection() {
                       Adresa
                     </span>
                     <span className="text-sm font-semibold text-dark">
-                      Kosmova 4, 612 00 Brno
+                      Kosmova 4, 612 00 Brno-Královo Pole
                     </span>
                   </div>
                 </div>

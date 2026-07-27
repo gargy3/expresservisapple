@@ -24,7 +24,7 @@ const faqs = [
   {
     question: 'Kde se servis nachází?',
     answer:
-      'Náš servis se nachází na adrese Kosmova 4, 612 00 Brno, v centru města.',
+      'Náš servis se nachází na adrese Kosmova 4, 612 00 Brno-Královo Pole.',
   },
   {
     question: 'Vykupujete staré iPhony?',
