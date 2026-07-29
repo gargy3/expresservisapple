@@ -252,7 +252,7 @@ const iphoneModels: DeviceModel[] = [
       { name: 'Výměna tlačítek hlasitosti', price: 2990, time: 40 },
       { name: 'Výměna power tlačítka (on/off)', price: 2990, time: 40 },
       { name: 'Výměna zadní sklo', price: 3990 },
-      { name: 'Výměna napájecího konektoru (DOCK)', price: 3990, time: 60 },
+      { name: 'Výměna napájecího konektoru (DOCK)', price: 3490, time: 60 },
       { name: 'Výměna vibrace', price: 2990, time: 10 },
       { name: 'Výměna mikrofonu', price: 2990, time: 30 },
     ],
