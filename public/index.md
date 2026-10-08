@@ -154,18 +154,18 @@ Srážky za defekty:
 
 | Model             | Kapacita | Nový      | Perfektní | Dobrý     |
 | ----------------- | -------- | --------- | --------- | --------- |
-| iPhone 16 Pro Max | 256 GB   | 22 400 Kč | 19 600 Kč | 16 800 Kč |
-| iPhone 16 Pro Max | 512 GB   | 25 200 Kč | 21 700 Kč | 18 900 Kč |
-| iPhone 16 Pro Max | 1 TB     | 28 000 Kč | 24 500 Kč | 21 000 Kč |
-| iPhone 16 Pro     | 128 GB   | 18 200 Kč | 15 400 Kč | 13 300 Kč |
-| iPhone 16 Pro     | 256 GB   | 20 300 Kč | 17 500 Kč | 14 700 Kč |
-| iPhone 16         | 128 GB   | 13 300 Kč | 11 200 Kč | 9 450 Kč  |
-| iPhone 16         | 256 GB   | 15 400 Kč | 12 600 Kč | 10 850 Kč |
-| iPhone 15 Pro Max | 256 GB   | 18 900 Kč | 16 100 Kč | 13 300 Kč |
-| iPhone 15 Pro     | 128 GB   | 14 700 Kč | 12 600 Kč | 10 500 Kč |
-| iPhone 15         | 128 GB   | 10 500 Kč | 8 400 Kč  | 7 000 Kč  |
-| iPhone 14 Pro Max | 128 GB   | 13 300 Kč | 11 200 Kč | 9 100 Kč  |
-| iPhone 14         | 128 GB   | 7 700 Kč  | 6 300 Kč  | 5 250 Kč  |
+| iPhone 16 Pro Max | 256 GB   | 17 920 Kč | 15 680 Kč | 13 440 Kč |
+| iPhone 16 Pro Max | 512 GB   | 20 160 Kč | 17 360 Kč | 15 120 Kč |
+| iPhone 16 Pro Max | 1 TB     | 22 400 Kč | 19 600 Kč | 16 800 Kč |
+| iPhone 16 Pro     | 128 GB   | 14 560 Kč | 12 320 Kč | 10 640 Kč |
+| iPhone 16 Pro     | 256 GB   | 16 240 Kč | 14 000 Kč | 11 760 Kč |
+| iPhone 16         | 128 GB   | 10 640 Kč | 8 960 Kč  | 7 560 Kč  |
+| iPhone 16         | 256 GB   | 12 320 Kč | 10 080 Kč | 8 680 Kč  |
+| iPhone 15 Pro Max | 256 GB   | 15 120 Kč | 12 880 Kč | 10 640 Kč |
+| iPhone 15 Pro     | 128 GB   | 11 760 Kč | 10 080 Kč | 8 400 Kč  |
+| iPhone 15         | 128 GB   | 8 400 Kč  | 6 720 Kč  | 5 600 Kč  |
+| iPhone 14 Pro Max | 128 GB   | 10 640 Kč | 8 960 Kč  | 7 280 Kč  |
+| iPhone 14         | 128 GB   | 6 160 Kč  | 5 040 Kč  | 4 200 Kč  |
 
 Pro ostatní modely (iPhone 13, 12, 11, X a starší) a pro iPad, MacBook a Apple Watch volejte nebo navštivte provozovnu.
 

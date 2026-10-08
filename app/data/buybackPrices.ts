@@ -32,10 +32,10 @@ export const conditionOptions: {
 
 /**
  * Globální korekční koeficient výkupních cen.
- * 0.70 = ceny jsou sníženy o 30 % oproti ceníkovým hodnotám níže.
+ * 0.56 = ceny jsou sníženy o 44 % oproti ceníkovým hodnotám níže (0.70 × 0.80).
  * Změn zde stačí k úpravě všech cen najednou.
  */
-export const PRICE_MULTIPLIER = 0.70;
+export const PRICE_MULTIPLIER = 0.56;
 
 /** Procentuální srážky za defekty (z bazové ceny) – snadno upravitelné */
 export const defectPenalties = {
